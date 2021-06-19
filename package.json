@@ -1,0 +1,25 @@
+{
+  "name": "node-multiprocessing",
+  "version": "1.0.0",
+  "description": "A boilerplate repository to test out the multi processing methods in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server1": "node index.js",
+    "server2": "node multi_process_index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terance98/node-multiprocessing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terance98/node-multiprocessing/issues"
+  },
+  "homepage": "https://github.com/Terance98/node-multiprocessing#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
